@@ -18,9 +18,14 @@ let g:go_highlight_generate_tags = 1
 nmap <C-g> :GoDeclsDir<cr>
 imap <C-g> <esc>:<C-u>GoDeclsDir<cr>
 
+"Ultisnips Triggers
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 
-  " Show by default 4 spaces for a tab
+" Show by default 4 spaces for a tab
 set noexpandtab
 set tabstop=4
 set shiftwidth=4
